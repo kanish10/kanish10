@@ -4,6 +4,7 @@ I am looking for internships for Summer (May-September) 2024. Feel free to reach
 
 I am a 3rd Computer Science student at the University of British Columbia.
 
+Thanks for reading!
 
 
 <!--
