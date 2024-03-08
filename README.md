@@ -1,6 +1,6 @@
 ### Hi there, I'm Kanish 👋
 
-I am looking for internships for Summer (May-September) 2024. Feel free to reach out to me on Linkedin or email (kkhanna7@student.ubc.ca)
+I am looking for internships for Summer (May-September) 2024. Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/kanishkhanna/) or email (kkhanna7@student.ubc.ca)
 
 I am a 3rd Computer Science student at the University of British Columbia.
 
