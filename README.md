@@ -5,7 +5,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+Github+Profile)
    
 </p>
-<p>I am currently majoring in Computer Science at the University of British Columbia. At the moment, I am on a coop as a Software Developer at UBC x AWS Cloud Innovation Centre.</p>
+<p>I am currently majoring in Computer Science at the University of British Columbia. At the moment, I am on a Co-op as a Software Developer at UBC x AWS Cloud Innovation Centre.</p>
 
 <h3 align="left">How to Reach Me:</h3>
 <p align="left">
