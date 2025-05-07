@@ -9,7 +9,7 @@
 
 <h3 align="left">How to Reach Me:</h3>
 <p align="left">
-<a href="https://www.linkedin.com/in/kanishkhanna/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aryanballani" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/kanishkhanna/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kanish10" height="30" width="40" /></a>
 
 </p>
 
