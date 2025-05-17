@@ -16,8 +16,8 @@
 
 
 ---
-<p align="center">&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=kanish10&show_icons=true&locale=en&theme=great-gatsby&count_private=true" alt="kanish10" />
-</p>
+<p align="center">&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=kanish10&show_icons=true&locale=en&theme=great-gatsby&count_private=true" alt="kanish10" /></p>
+<p align="center">&nbsp;<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kanish10" alt="Github Streaks" /></p>
 
 
 
