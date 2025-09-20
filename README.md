@@ -1,11 +1,11 @@
 <h1 align="center">Hello! 👋. I am Kanish Khanna</h1>
-<h3 align="center"> SDE @ UBC x AWS Cloud Innovation Centre | CS @ UBC, Vancouver</h3>
+<h3 align="center"> Cloud Devops Co-op @ Samsung Electronics | CS @ UBC, Vancouver</h3>
 <p align = "center"
    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+Github+Profile)
    
 </p>
-<p>I am currently majoring in Computer Science at the University of British Columbia. At the moment, I am on a Co-op as a Software Developer at UBC x AWS Cloud Innovation Centre.</p>
+<p>I am currently majoring in Computer Science at the University of British Columbia. At the moment, I am on a Co-op as a Cloud Devops Co-op at Samsung Electronics.</p>
 
 <h3 align="left">How to Reach Me:</h3>
 <p align="left">
