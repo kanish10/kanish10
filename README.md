@@ -1,5 +1,5 @@
 <h1 align="center">Hello! 👋. I am Kanish Khanna</h1>
-<h3 align="center"> Cloud Devops Co-op @ Samsung Electronics | CS @ UBC, Vancouver</h3>
+<h3 align="center"> Applied AI Engineer intern @ Rakuten Inc | CS @ UBC, Vancouver</h3>
 <p align = "center"
    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+Github+Profile)
