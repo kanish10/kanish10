@@ -1,105 +1,120 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=200&section=header&text=&fontSize=0" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4568DC,100:B06AB3&height=250&section=header&text=Kanish%20Khanna&fontSize=50&fontAlignY=38&fontColor=ffffff&animation=fadeIn&desc=Systems%20%C2%B7%20AI%20Infrastructure%20%C2%B7%20Performance&descAlignY=58&descSize=20&descColor=ffffffcc" />
 
 <div align="center">
 
-# Kanish Khanna
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&random=false&width=620&height=80&lines=Applied+AI+Engineer+%40+Rakuten+Inc;CS+%40+UBC+%E2%80%A2+Systems+%E2%80%A2+AI+Infra+%E2%80%A2+HPC" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&duration=3000&pause=1000&color=B06AB3&center=true&vCenter=true&random=false&width=700&lines=Applied+AI+Engineer+%40+Rakuten+Inc;CS+%40+University+of+British+Columbia;Building+LLM+Serving+Systems+%26+GPU+Tooling;From+CUDA+Kernels+to+Production+Infrastructure" alt="Typing SVG" /></a>
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/-kanishkhanna-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kanishkhanna/)
-[![GitHub](https://img.shields.io/badge/-kanish10-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kanish10)
-![Views](https://komarev.com/ghpvc/?username=kanish10&color=58A6FF&style=flat-square&label=Profile+Views)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kanishkhanna-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kanishkhanna/)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-kanish10-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kanish10)
 
 </div>
 
----
+<br/>
 
-### About Me
-
-```yaml
-name: Kanish Khanna
-location: Vancouver, BC
-education: BSc Computer Science @ University of British Columbia (4th year)
-role: Applied AI Engineer Intern @ Rakuten Inc
-interests:
-  - Systems Programming (C++, Go)
-  - AI Infrastructure & LLM Serving
-  - High-Performance Computing & CUDA
-  - Performance Engineering & Observability
-currently_building:
-  - LLM inference server with continuous batching (2.13x throughput vs static batching)
-  - CUDA kernel regression detection with AI-powered triage
-```
+I care about what happens between the GPU and the user — making inference faster, catching regressions before they ship, and building the tooling that keeps AI systems honest. Currently interning at **Rakuten Inc** as an Applied AI Engineer while finishing my CS degree at **UBC** in Vancouver.
 
 ---
 
-### Tech Stack
+### 🔨 What I Build
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [⚡ LLM Inference Server](https://github.com/kanish10/LLM-Inference-Server)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat&logo=google&logoColor=white)
+
+From-scratch **continuous batching** scheduler — the algorithm behind vLLM and TGI. Lock-free hot path with a Go gRPC gateway providing admission control, backpressure, and Prometheus metrics.
+
+**→ 2.13x throughput** at matched p99 latency vs static batching
+
+</td>
+<td width="50%" valign="top">
+
+#### [🔍 PerfLens](https://github.com/kanish10/PerfLens)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+
+Nightly CI that **catches and explains CUDA kernel regressions**. Nsight Compute profiling → noise-aware statistical detection → AI triage agent that correlates performance changes with source diffs.
+
+**→ 83 tests**, automated PR gates, FastAPI + React dashboard
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [🌄 Ray Tracer](https://github.com/kanish10/Ray-Tracer)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
+
+From-scratch **ray tracing renderer** — vector math, camera systems, materials, lighting, and scene file support. Built to understand how light actually works.
+
+</td>
+<td width="50%" valign="top">
+
+#### [💬 NLP Piazza Chatbot](https://github.com/kanish10/nlp-piazza-analysis-chatbot)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+
+Piazza discussion analyzer with an **AI chatbot powered by Claude v2.1** on AWS Bedrock. Uses Comprehend NLP to surface learning insights from student discussions.
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🛠 Tech Stack
 
 **Languages**
 
-[![Languages](https://skillicons.dev/icons?i=cpp,python,go,typescript,javascript,java,kotlin&perline=7)](https://skillicons.dev)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
 **Frameworks & Libraries**
 
-[![Frameworks](https://skillicons.dev/icons?i=react,nextjs,flask,fastapi,vue,cmake,gradle&perline=7)](https://skillicons.dev)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
 
-**Infrastructure & Cloud**
+**Infrastructure & Tools**
 
-[![Infra](https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,terraform,linux,git,github,postgres,redis,sqlite,grafana&perline=6)](https://skillicons.dev)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
 
-</div>
+**Data & Observability**
 
----
-
-### Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/kanish10/LLM-Inference-Server">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kanish10&repo=LLM-Inference-Server&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e" />
-</a>
-<a href="https://github.com/kanish10/PerfLens">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kanish10&repo=PerfLens&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e" />
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<a href="https://github.com/kanish10/Ray-Tracer">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kanish10&repo=Ray-Tracer&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e" />
-</a>
-<a href="https://github.com/kanish10/nlp-piazza-analysis-chatbot">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kanish10&repo=nlp-piazza-analysis-chatbot&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e" />
-</a>
-
-</div>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 
 ---
 
-### GitHub Analytics
+### 📊 GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kanish10&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" />
-  <img height="180em" src="https://streak-stats.demolab.com?user=kanish10&hide_border=true&background=0D1117&stroke=58a6ff&ring=58a6ff&fire=ff6e40&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e" />
-</div>
-
-<br/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=kanish10&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true" />
-
----
-
-### Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kanish10&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=kanish10&theme=dark&hide_border=true&ring=B06AB3&fire=B06AB3&currStreakLabel=B06AB3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=kanish10&theme=default&hide_border=true&ring=4568DC&fire=4568DC&currStreakLabel=4568DC" />
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=kanish10&theme=dark&hide_border=true&ring=B06AB3&fire=B06AB3&currStreakLabel=B06AB3" />
+</picture>
 </div>
 
 ---
@@ -112,4 +127,4 @@ currently_building:
   </picture>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=120&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4568DC,100:B06AB3&height=120&section=footer" />
